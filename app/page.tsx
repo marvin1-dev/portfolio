@@ -408,7 +408,7 @@ function Contact() {
           <Card>
             <CardContent className="pt-6">
               {/* Netlify Forms-enabled */}
-              <form name="contact" method="POST" data-netlify="true" className="space-y-4">
+              <form name="contact" method="POST" action="/hidden-form.html"  className="space-y-4">
                 <input type="hidden" name="form-name" value="contact" />
                 <div>
                   <label className="text-sm">Name</label>
